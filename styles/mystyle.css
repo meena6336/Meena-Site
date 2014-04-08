@@ -2,26 +2,24 @@
 
 * {
     font-family: Verdana, Helvetica, sans-serif; 
-    margin: 0; padding: 0; 
+    color: #42434c;
     
 }
 
-#wrapper {
+.container {
 
-    background:#ddddee;
+    background:#d7daf7;
 }
 header {
 
-    background:#bbbbbb;
+    background:#858799;
     text-align: center;
 }
 .article-head {
-    background: #ffffff;
+    background: #858799;
 }
-nav, aside {
-    background:#bbbbbb;
-    width: 25%;
-    float: left;
+li {
+    background:#858799;
 }
 article {
     border: 1px solid #000000;
@@ -29,7 +27,8 @@ article {
 }
 #page-footer {
   
-    background:#bbbbbb;
+    background:#858799;
+    border-top:2px solid #888888;
 }
 
 a {
@@ -37,14 +36,14 @@ a {
 }
 
 a:link {
-    background: #ccdded;
+    background: #7a7c8c;
 }
 
 a:visited {
-    background: #bccdcb;
+    background: #7a7c8c;
 }
 
 a:hover, a:active {
-    background: #cddedc;
+    background: #d98838;
 }
 
